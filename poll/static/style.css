@@ -2,8 +2,8 @@
 	border-radius: 0;
 }
 .navbar-default {
-    background-color: rgba(245, 245, 220, .7);
-    border-color: rgba(245, 245, 220, .6);
+    background-color: #cfbb29;
+    border-color: #cfbb29;
     box-shadow: 0px 3px 3px 0px #ddd;
 }
 .navbar-default .navbar-nav>.active>a,
@@ -28,4 +28,16 @@
 }
 a.navbar-brand, .panel-title {
 	font-weight: bolder;
+}
+.row .pull-right .btn-default{
+    background-color: #cfbb29;
+}
+.row .list-group-item{
+    background-color: #a46aa6;
+}
+.panel-body .row .form-group{
+    background-color: #a46aa6;
+}
+.row .col-lg-offset-2{
+    background-color: rgba(45, 165, 179);
 }
